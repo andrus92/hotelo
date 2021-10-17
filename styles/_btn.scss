@@ -1,0 +1,22 @@
+.btn {
+    padding: 16px 32px;
+    background-color: $green-color;
+    border-radius: 35px;
+    a {
+        color: $white-color;
+    }
+
+    &--header {
+        padding: 10px 20px;
+    }
+
+    &--ligth-green {
+        padding: 6px 25px;
+        border-radius: 280px;
+        background-color: $ligth-green-color;
+        a {
+            color: $green-color;
+        }    
+    }
+    
+}

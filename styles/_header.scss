@@ -1,0 +1,37 @@
+.header {
+
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+ 
+    &__logo {
+        max-width: 92px;
+        max-height: 40px;
+        width: auto;
+        height: auto;
+    }
+
+    &__nav {
+
+        &-list {
+            display: flex;
+            align-items: center;
+        }
+
+        &-item {
+            padding: 0 20px;
+        }
+
+        &-link {
+            font: 400 16px/1.5 $openSans-font;
+
+            &:hover {
+                color: $green-color;
+            }
+        }
+    }
+
+    
+}
